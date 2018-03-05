@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "015915ad3ea1bcad0ce332e9fb5a9660",
+    "content-hash": "9d51d50081be6fcb5a819e8ec596faf0",
     "packages": [
         {
             "name": "symfony/yaml",
@@ -677,21 +677,24 @@
         },
         {
             "name": "flow/jsonpath",
-            "version": "0.3.1",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FlowCommunications/JSONPath.git",
-                "reference": "e064398010089f9efb46044f85ee63c458ae89e1"
+                "reference": "f0222818d5c938e4ab668ab2e2c079bd51a27112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FlowCommunications/JSONPath/zipball/e064398010089f9efb46044f85ee63c458ae89e1",
-                "reference": "e064398010089f9efb46044f85ee63c458ae89e1",
+                "url": "https://api.github.com/repos/FlowCommunications/JSONPath/zipball/f0222818d5c938e4ab668ab2e2c079bd51a27112",
+                "reference": "f0222818d5c938e4ab668ab2e2c079bd51a27112",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "peekmo/jsonpath": "dev-master",
-                "phpunit/phpunit": "dev-master"
+                "phpunit/phpunit": "^4.0"
             },
             "type": "library",
             "autoload": {
@@ -711,7 +714,7 @@
                 }
             ],
             "description": "JSONPath implementation for parsing, searching and flattening arrays",
-            "time": "2015-10-12T07:39:47+00:00"
+            "time": "2018-03-04T16:39:47+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
