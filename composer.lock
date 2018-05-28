@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "015915ad3ea1bcad0ce332e9fb5a9660",
@@ -235,16 +235,16 @@
         },
         {
             "name": "codeception/c3",
-            "version": "2.0.6",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/c3.git",
-                "reference": "dc4d39b36d585c2eda58129407e78855ea67b1ca"
+                "reference": "d841be32a6785e2f565b9f88f5ff36c905931a9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/c3/zipball/dc4d39b36d585c2eda58129407e78855ea67b1ca",
-                "reference": "dc4d39b36d585c2eda58129407e78855ea67b1ca",
+                "url": "https://api.github.com/repos/Codeception/c3/zipball/d841be32a6785e2f565b9f88f5ff36c905931a9a",
+                "reference": "d841be32a6785e2f565b9f88f5ff36c905931a9a",
                 "shasum": ""
             },
             "require": {
@@ -281,7 +281,7 @@
                 "code coverage",
                 "codecoverage"
             ],
-            "time": "2016-02-09T23:31:08+00:00"
+            "time": "2018-05-26T22:34:28+00:00"
         },
         {
             "name": "codeception/codeception",
